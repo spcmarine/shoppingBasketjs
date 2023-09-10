@@ -1,12 +1,12 @@
 
 class Candy {
-    contructor(candy, price) {
-        this.candy = candy;
+    constructor(candy, price) {
+        this.name = candy;
         this.price = price;
     }
 
     getName() {
-        return this.candy;
+        return this.name;
     }
 
     getPrice() {
